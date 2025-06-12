@@ -2,7 +2,9 @@
   <a href="README_zh.md">中文版</a>
 </div>
 
-# <img src="https://mvisu-bench.github.io/static/images/colorPhone.png" width="50" style="vertical-align: middle"> <span style="color:#6BB6CF">M</span><span style="color:#E5CE70">V</span><span style="color:#A77ABF">I</span><span style="color:#49A697">S</span><span style="color:#D85B58">U</span>-Bench
+<div align="center">
+  <img src="img/image.png" width="800">
+</div>
 
 <div align="center">
 
