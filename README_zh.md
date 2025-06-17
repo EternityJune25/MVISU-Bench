@@ -10,7 +10,7 @@
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Version](https://img.shields.io/badge/version-1.0.0-green.svg)
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-Dataset-yellow.svg)](https://huggingface.co/datasets/MVISU-Bench)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-Dataset-yellow.svg)](https://huggingface.co/datasets/MVISU-Bench/MVISU-Bench)
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-Model-orange.svg)](https://huggingface.co/MVISU-Bench/Qwen2.5-VL-3B-Mobile-Aider)
 [![Website](https://img.shields.io/badge/Website-MVISU--Bench-blue.svg)](https://mvisu-bench.github.io)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
