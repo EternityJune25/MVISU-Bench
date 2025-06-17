@@ -1,0 +1,17 @@
+{
+  "demo_mllm_qwen2.5vl": {
+    "file_name": "demo_mllm_qwen2.5vl.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages",
+      "images": "images"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+  }
+}
