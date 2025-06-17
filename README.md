@@ -40,7 +40,7 @@ The repository also includes LLaMA-Factory-Aider, a customized version of LLaMA 
 - **Real-World Focus**: Specifically designed for mobile agent evaluation
 - **Diverse Scenarios**: Includes multi-app, vague, interactive, single-app, and unethical instruction cases
 
-## 📁 Dataset Structure
+## 📁 Project Structure
 
 ```
 MVISU-Bench/
@@ -126,9 +126,14 @@ Each entry in the dataset is a JSON object with the following fields:
   - Shopping: CN 4 (5.88%), EN 5 (7.25%)  
   - General Tool: CN 19 (27.94%), EN 20 (28.99%)
 
+## 📊 Dataset Access
+
+The MVISU-Bench dataset is available on HuggingFace: [MVISU-Bench Dataset on HuggingFace](https://huggingface.co/datasets/MVISU-Bench/MVISU-Bench)
+
 ## 🧠 Qwen2.5_vl_3B_Aider Model Weights
 
 You can find the Qwen2.5_vl_3B_Aider model weights on HuggingFace: [Qwen2.5_vl_3B_Aider on HuggingFace](https://huggingface.co/MVISU-Bench/Qwen2.5-VL-3B-Mobile-Aider)
+
 
 ## 🔧 Getting Started Training Aider
 

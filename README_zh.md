@@ -23,9 +23,9 @@
 
 **MVISU-Bench：通过多应用、模糊、交互式、单应用和不道德指令来评估移动代理在现实世界任务中的表现**
 
-MVISU-Bench 是一个全面的多语言视觉理解任务基准数据集，专门用于评估移动代理在现实场景中的能力。该仓库包含精心策划的英文和中文数据集，旨在促进跨语言视觉理解和移动代理评估的研究和开发。
+MVISU-Bench 是一个全面的多语言视觉理解基准数据集，专门用于评估移动代理在现实场景中的能力。该仓库包含精心策划的英文和中文数据集，旨在促进跨语言视觉理解和移动代理评估的研究和开发。
 
-该仓库还包含 LLaMA-Factory-Aider，这是 LLaMA Factory 的定制版本，专门用于训练和微调移动代理模型。该工具包为模型训练、评估和部署提供全面支持。
+该仓库还包含 LLaMA-Factory-Aider，这是 LLaMA Factory 的定制版本，专门用于训练和微调移动代理模型。该工具包提供全面的模型训练、评估和部署支持。
 
 <div align="center">
   <img src="https://mvisu-bench.github.io/static/images/exp_results/ACMM绘图-最终版-1%20(1)-1.png" width="800">
@@ -36,11 +36,11 @@ MVISU-Bench 是一个全面的多语言视觉理解任务基准数据集，专�
 - **双语支持**：提供英文和中文的并行数据集
 - **高质量**：专家标注数据，严格的质量控制
 - **全面性**：涵盖各种视觉理解场景
-- **易用性**：简单的 JSON 格式，便于集成
+- **易于使用**：简单的 JSON 格式，便于集成
 - **现实世界导向**：专门为移动代理评估设计
 - **多样化场景**：包括多应用、模糊、交互式、单应用和不道德指令案例
 
-## 📁 数据集结构
+## 📁 项目结构
 
 ```
 MVISU-Bench/
@@ -79,7 +79,7 @@ graph TD
     C --> C6[examples]
     C --> C7[scripts]
     C --> C8[docker]
-    C --> C9[其他配置文件]
+    C --> C9[other configuration files]
     
     style A fill:#f9f,stroke:#333,stroke-width:2px
     style B fill:#bbf,stroke:#333,stroke-width:2px
@@ -126,6 +126,10 @@ graph TD
   - 购物：中文 4 (5.88%)，英文 5 (7.25%)  
   - 通用工具：中文 19 (27.94%)，英文 20 (28.99%)
 
+## 📊 数据集访问
+
+MVISU-Bench 数据集可在 HuggingFace 上获取：[MVISU-Bench Dataset on HuggingFace](https://huggingface.co/datasets/MVISU-Bench/MVISU-Bench)
+
 ## 🧠 Qwen2.5_vl_3B_Aider 模型权重
 
 您可以在 HuggingFace 上找到 Qwen2.5_vl_3B_Aider 模型权重：[Qwen2.5_vl_3B_Aider on HuggingFace](https://huggingface.co/MVISU-Bench/Qwen2.5-VL-3B-Mobile-Aider)
@@ -136,7 +140,7 @@ graph TD
 
 ### 安装
 ```bash
-# git clone 此仓库
+# git clone 仓库
 cd LLaMA-Factory-Aider
 conda create -n your_env_name python==3.10.16
 conda activate your_env_name
@@ -145,7 +149,7 @@ pip install -e ".[torch,metrics]" --no-build-isolation
 
 ### 训练数据
 
-在本项目中，我们提供了四种类型的训练数据示例，位于 `LLaMA-Factory-Aider/data/mllm_demo_data`。您可以根据具体需求收集自己的数据来对 Aider 进行个性化微调。有关数据格式、数据注册等详细信息，请参考官方 [LLaMA Factory README](https://github.com/hiyouga/LLaMA-Factory#readme)。
+在本项目中，我们提供了四种类型的训练数据示例，位于 `LLaMA-Factory-Aider/data/mllm_demo_data`。您可以根据特定需求收集自己的数据，以进行 Aider 的个性化微调。有关数据格式、数据注册等详细信息，请参考官方 [LLaMA Factory README](https://github.com/hiyouga/LLaMA-Factory#readme)。
 
 ### 训练与合并
 
@@ -221,5 +225,5 @@ CUDA_VISIBLE_DEVICES=0 llamafactory-cli export \
 ---
 
 <div align="center">
-由 MVISU-Bench 团队倾情奉献 ❤️
+由 MVISU-Bench 团队倾情制作 ❤️
 </div>
