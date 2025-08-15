@@ -14,8 +14,28 @@
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-Model-orange.svg)](https://huggingface.co/MVISU-Bench/Qwen2.5-VL-3B-Mobile-Aider)
 [![Website](https://img.shields.io/badge/Website-MVISU--Bench-blue.svg)](https://mvisu-bench.github.io)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![arXiv](https://img.shields.io/badge/arXiv-2508.09057-b31b1b.svg)](https://arxiv.org/abs/2508.09057)
 
 </div>
+
+## 📖 论文信息
+
+这是以下论文的**官方实现**：
+
+**[MVISU-Bench: Benchmarking Mobile Agents for Real-World Tasks by Multi-App, Vague, Interactive, Single-App and Unethical Instructions](https://arxiv.org/abs/2508.09057)**
+
+
+**引用：**
+```bibtex
+@article{huang2025mvisu,
+  title={MVISU-Bench: Benchmarking Mobile Agents for Real-World Tasks by Multi-App, Vague, Interactive, Single-App and Unethical Instructions},
+  author={Huang, Zeyu and Wang, Juyuan and Chen, Longfeng and Xiao, Boyi and Cai, Leng and Zeng, Yawen and Xu, Jin},
+  journal={arXiv preprint arXiv:2508.09057},
+  year={2025}
+}
+```
+
+---
 
 ## 📚 概述
 
