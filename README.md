@@ -20,7 +20,7 @@
 
 ## 📖 Paper Information
 
-This is the **official implementation** of the paper:
+This is the **official implementation** of the paper!:
 
 **[MVISU-Bench: Benchmarking Mobile Agents for Real-World Tasks by Multi-App, Vague, Interactive, Single-App and Unethical Instructions](https://arxiv.org/abs/2508.09057)**
 
