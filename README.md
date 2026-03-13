@@ -234,6 +234,16 @@ CUDA_VISIBLE_DEVICES=0 llamafactory-cli export \
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## 👥 About the Team
+
+MVISU-Bench is developed and maintained by a research team dedicated to advancing mobile agent evaluation and multilingual visual understanding.
+
+**Authors**: Zeyu Huang, Juyuan Wang, Longfeng Chen, Boyi Xiao, Leng Cai, Yawen Zeng, Jin Xu
+
+We are researchers focused on building comprehensive benchmarks to evaluate mobile agents' performance on real-world tasks. Our work covers multi-app coordination, vague instruction handling, interactive scenarios, single-app tasks, and safety evaluation (unethical instructions).
+
+For more details about our research, please refer to our paper: [MVISU-Bench on arXiv](https://arxiv.org/abs/2508.09057).
+
 ## 🤝 Contributing
 
 We welcome contributions! Please feel free to submit a Pull Request.
